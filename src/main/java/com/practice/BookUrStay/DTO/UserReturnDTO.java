@@ -25,4 +25,6 @@ public class UserReturnDTO {
     //         this.ownedProperties = ownedProperties;
     //     }
     // }
+
+    private Set<GuestDTO> guests = new HashSet<>();
 }

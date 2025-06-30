@@ -19,7 +19,7 @@ public class GuestDTO {
     private String email;
 
     @NotBlank(message = "Gender cannot be blank")
-    private Gender gender;
+    private String gender;
 
     @Size(min = 10, max = 10, message = "Phone number must be 10 characters")
     private String phoneNumber;
@@ -29,5 +29,11 @@ public class GuestDTO {
 
     @NotBlank(message = "Address cannot be blank")
     private String address;
+
+    @NotBlank(message = "City cannot be blank")
+    private String city;
+
+    private String UserEmail; // Guest is linked to a User entity, this can be used to identify the user associated with the guest
+    private String UserName; // Optional: to include the user's name for better identification
 
 }

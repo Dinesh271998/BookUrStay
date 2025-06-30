@@ -24,6 +24,7 @@ public class Guest extends BaseModel {
     private String phoneNumber;
     private Integer age;
     private String address;
+    private String city;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "user_id", nullable = false)
