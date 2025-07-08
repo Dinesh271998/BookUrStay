@@ -3,7 +3,7 @@ package com.practice.BookUrStay;
 import com.practice.BookUrStay.Exceptions.ResourceNotFoundException;
 import com.practice.BookUrStay.Model.User;
 import com.practice.BookUrStay.Repository.UserRepository;
-import com.practice.BookUrStay.Service.JwtTokenServiceImpl;
+import com.practice.BookUrStay.Security.JwtTokenServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
